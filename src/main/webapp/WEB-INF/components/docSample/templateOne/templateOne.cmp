@@ -1,0 +1,4 @@
+<aura:component isTemplate="true" extends="aura:template">
+   <aura:attribute name="title" type="String" default="default"/>
+   <div>Text from Template in template: {!v.title}</div>
+</aura:component>
