@@ -1,0 +1,5 @@
+<aura:component>
+	<ul>
+	<li><a href="/docSample/helloWorld.cmp">HelloWorld Component : helloWorld.cmp </a></li>
+	</ul>
+</aura:component>

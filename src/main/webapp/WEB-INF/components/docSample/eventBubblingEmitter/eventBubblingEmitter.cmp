@@ -1,0 +1,7 @@
+<aura:component>
+    <aura:registerEvent name="bubblingEvent" type="docSample:compEvent"/>
+    <div>
+    <div class="bold">eventBubblingEmitter</div>
+	<ui:button class="mybutton" press="{!c.fireEvent}" label="Start Bubbling"/>
+	</div>
+</aura:component>

@@ -1,0 +1,25 @@
+.THIS {
+	background-color: pink;
+	margin-left:10px;
+    margin-top:10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px
+}
+.THIS.white {
+	background-color: white;
+}
+.THIS .parent {
+	background-color: blue;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}
+
+.THIS .bold {
+	font-weight: bold;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}

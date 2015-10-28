@@ -1,0 +1,6 @@
+<aura:component>
+	<div class="mydiv">
+		Time in Europe/Berlin : <ui:outputDateTime value="2013-05-07T00:17:08.997Z" timezone="Europe/Berlin"
+		langLocale="de"/>
+	</div>
+</aura:component>

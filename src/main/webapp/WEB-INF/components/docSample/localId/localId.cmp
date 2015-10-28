@@ -1,0 +1,5 @@
+<aura:component>
+	<ui:button aura:id="button_local_id" label="Get Local ID" press="{!c.getInput}"/>
+	<br/>
+	<ui:outputText aura:id="outName" value="" class="text"/>
+</aura:component>

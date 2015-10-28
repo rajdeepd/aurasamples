@@ -1,0 +1,12 @@
+<aura:component>
+	<aura:attribute name="setMeOnInit" type="String" default="Initialized" /> 
+	<aura:handler name="bubblingEvent" event="docSample:compEvent"
+	action="{!c.handleBubbling}"/>
+	<div class="parent">
+	    <div class="bold">eventBubblingParent</div>
+	    <p>{!v.setMeOnInit}</p>
+		<docSample:eventBubblingChild>
+			<docSample:eventBubblingGrandchild />
+	    </docSample:eventBubblingChild>
+	</div>
+</aura:component>

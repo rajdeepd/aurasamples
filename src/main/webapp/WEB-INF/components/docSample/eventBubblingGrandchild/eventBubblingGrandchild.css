@@ -1,0 +1,38 @@
+.THIS {
+	background-color: #CCFFCC;
+	margin-left:10px;
+    margin-top:10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px
+}
+.THIS.white {
+	background-color: white;
+}
+.THIS .bold {
+	font-weight: bold;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.THIS .pink {
+	background-color: #FF9999;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}
+.THIS .blue {
+	background-color: #66CCFF;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}
+.THIS .green {
+	background-color: #CCFFCC;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}
