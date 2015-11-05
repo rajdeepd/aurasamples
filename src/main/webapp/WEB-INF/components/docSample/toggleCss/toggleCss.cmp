@@ -1,0 +1,7 @@
+<aura:component>
+<div class="blue">
+<ui:button label="Toggle" press="{!c.toggle}"/>
+</div>
+<p aura:id="text">Now you see me</p>
+
+</aura:component>

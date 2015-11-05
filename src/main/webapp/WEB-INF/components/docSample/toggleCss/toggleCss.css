@@ -1,0 +1,21 @@
+.THIS {
+	margin:20px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    width: 200px;
+
+}
+.THIS.toggle {
+	display: none;
+	
+	
+}
+.THIS.blue {
+	background-color: #66CCFF;
+	margin:20px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    width: 200px;
+}
