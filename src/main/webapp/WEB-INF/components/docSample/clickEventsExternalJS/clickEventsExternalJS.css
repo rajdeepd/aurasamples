@@ -1,0 +1,29 @@
+.THIS {
+    margin-left:45px;
+    margin-top:45px;
+    width:800px;
+    background-color: #66CCFF;
+}
+.THIS.pink {
+	background-color: #FF9999;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}
+.THIS.red {
+	background-color: red;
+	margin: 10px;
+	padding: 5px;
+}
+.THIS .margin {
+	margin: 10px;
+	padding: 5px;
+}
+.THIS.blue {
+	background-color: #66CCFF;
+	margin:5px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2px
+}

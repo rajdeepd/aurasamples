@@ -1,0 +1,17 @@
+<aura:component>
+    <aura:clientLibrary url="/aura/external.js" type="JS" />
+    <div class="blue">
+	<div class="margin">
+		<ui:inputText aura:id="name" label="Enter Name:" placeholder="Your Name" />
+	</div>
+	<div class="margin">
+		<ui:button aura:id="button" label="Click me" press="{!c.getInput}"/>
+	</div>
+	</div>
+	
+	<div class="pink">
+	<div class="margin">
+	<ui:outputText  aura:id="outName" value="" class="text"/>
+	</div>
+	</div>
+</aura:component>
