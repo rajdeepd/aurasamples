@@ -125,10 +125,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <packagingIncludes>src/main/java/**/*.java</packagingIncludes>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
+                     <includes>
+                        <include>**/SimpleController.java</include>
+                    </includes>
                     <excludes>
                         <exclude>**/AppTest.java</exclude>
                     </excludes>
