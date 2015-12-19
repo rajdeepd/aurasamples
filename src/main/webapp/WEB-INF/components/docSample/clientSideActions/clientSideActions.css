@@ -1,5 +1,38 @@
-.THIS.mydiv {
-    margin-left:45px;
-    margin-top:45px;
-    width:800px
+.THIS {
+	background-color: white;
+	margin-left:5px;
+    margin-top:5px;
+    border-style: solid;
+    border-width: 	0px;
+    padding: 5px
+}
+
+.THIS .red {
+	background-color: #FFADAD;
+	padding: 5px
+}
+
+.THIS .green {
+	background-color: #7AFF7A;
+	padding: 5px
+}
+
+
+.THIS .blue {
+	background-color: #CBE1FC;
+    padding: 5px
+}
+
+.THIS .pink {
+	background-color: pink;
+	margin:10px;
+	border-style: solid;
+    border-width: 1px;
+    padding: 10px
+}
+
+.THIS .button {
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
 }

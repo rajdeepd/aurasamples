@@ -1,10 +1,13 @@
 <aura:component>
+
 	<aura:attribute name="text" type="String" default="Just a string. Waiting for change."/>
+	<div>
 	<input type="button" value="Flawed HTML Button" onclick="alert('this will not work')"/>
-	<br/>
+	</div>
+	<div class="pink">
 	<input type="button" value="Hybrid HTML Button" onclick="{!c.handleClick}"/>
-	<br/>
-	<ui:button label="Framework Button" press="{!c.handleClick}"/>
-	<br/>
-	{!v.text}
+	</div>
+	<div><ui:button label="Framework Button" press="{!c.handleClick}"/>
+	</div>
+	<p>{!v.text}</p>
 </aura:component>

@@ -127,6 +127,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <packagingIncludes>src/main/java/**/*.java</packagingIncludes>
+                    <packagingIncludes>WEB-INF/lib/*.jar</packagingIncludes>
                 </configuration>
             </plugin>
             <plugin>
@@ -178,6 +179,7 @@
                                 <configuration>
                                     <scanIntervalSeconds>5</scanIntervalSeconds>
                                     <daemon>true</daemon>
+                                    
                                 </configuration>
                             </execution>
                             <execution>

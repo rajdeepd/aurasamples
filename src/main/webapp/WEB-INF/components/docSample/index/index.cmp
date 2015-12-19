@@ -1,5 +1,14 @@
 <aura:component>
 	<ul>
 	<li><a href="/docSample/helloWorld.cmp">HelloWorld Component : helloWorld.cmp </a></li>
+	<li><a href="/docSample/clientSideActions.cmp">Client Side Actions : clientSideActions.cmp </a></li>
+	<li><a href="/docSample/clickEventsExternalJS.cmp">ClickEvents ExtenalJS : clickEventsExternalJS.cmp </a></li>
+	<li><a href="/docSample/cssSampleOne.cmp">CSS Sample : cssSampleOne.cmp </a></li>
+	<li><a href="/docSample/globalId.cmp">Global ID : globalId.cmp </a></li>
+	<li><a href="/docSample/localId.cmp">Local ID : localId.cmp </a></li>
+	<li><a href="/docSample/localization.cmp">Localization : localization.cmp </a></li>
+	<li><a href="/docSample/ceHandler.cmp">Component Event Handler : ceHandler.cmp </a></li>
+	<li><a href="/docSample/SimpleClient.cmp">Server Side Integration : SimpleClient.cmp </a></li>
+	<li><a href="/docSample/eventBubblingParent.cmp">Event Bubbling : eventBubblingParent.cmp </a></li>
 	</ul>
 </aura:component>
