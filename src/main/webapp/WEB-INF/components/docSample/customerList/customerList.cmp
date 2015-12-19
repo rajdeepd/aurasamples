@@ -1,0 +1,14 @@
+<aura:component
+model="java://org.auraframework.demo.models.CustomerModel">
+<aura:attribute name="sort" type="String"
+default=""/>
+<aura:attribute name="query" type="String"/>
+<div class="blue">
+<ul>
+<aura:iteration items="{!m.customers}" var="customer">
+  <li>{!customer}</li>
+</aura:iteration>
+</ul>
+</div>
+
+</aura:component>

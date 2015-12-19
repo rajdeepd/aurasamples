@@ -10,5 +10,7 @@
 	<li><a href="/docSample/ceHandler.cmp">Component Event Handler : ceHandler.cmp </a></li>
 	<li><a href="/docSample/SimpleClient.cmp">Server Side Integration : SimpleClient.cmp </a></li>
 	<li><a href="/docSample/eventBubblingParent.cmp">Event Bubbling : eventBubblingParent.cmp </a></li>
+	<li><a href="/docSample/customerList.cmp">Model Sample - Customer List  : customerList.cmp </a></li>
+	
 	</ul>
 </aura:component>
