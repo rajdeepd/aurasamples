@@ -1,4 +1,6 @@
 <aura:component>
 <aura:attribute name="whom" type="String" default="world"/>
-Hello {!v.whom}!
+<aura:attribute name="location" type="String" default="Kochi"/>
+
+Hello {!v.whom} in {!v.location} !
 </aura:component>

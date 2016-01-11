@@ -1,5 +1,4 @@
-<aura:component
-model="java://org.auraframework.demo.models.CustomerModel">
+<aura:component model="java://org.auraframework.demo.models.CustomerModel">
 <aura:attribute name="sort" type="String"
 default=""/>
 <aura:attribute name="query" type="String"/>
@@ -10,5 +9,4 @@ default=""/>
 </aura:iteration>
 </ul>
 </div>
-
 </aura:component>
