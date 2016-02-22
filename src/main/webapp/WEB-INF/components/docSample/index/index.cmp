@@ -1,5 +1,5 @@
 <aura:component>
-	<ul>
+	<ul class="slds-list--dotted">
 	<li><a href="/docSample/helloWorld.cmp">HelloWorld Component : helloWorld.cmp </a></li>
 	<li><a href="/docSample/clientSideActions.cmp">Client Side Actions : clientSideActions.cmp </a></li>
 	<li><a href="/docSample/clickEventsExternalJS.cmp">ClickEvents ExtenalJS : clickEventsExternalJS.cmp </a></li>
@@ -10,7 +10,8 @@
 	<li><a href="/docSample/ceHandler.cmp">Component Event Handler : ceHandler.cmp </a></li>
 	<li><a href="/docSample/SimpleClient.cmp">Server Side Integration : SimpleClient.cmp </a></li>
 	<li><a href="/docSample/eventBubblingParent.cmp">Event Bubbling : eventBubblingParent.cmp </a></li>
-	<li><a href="/docSample/customerList.cmp">Model Sample - Customer List  : customerList.cmp </a></li>
-	
+	<li><a href="/docSample/customerList.cmp">Model Sample1 - Customer List  : customerList.cmp </a></li>
+	<li><a href="/docSample/attributeValuesOne.cmp">Working with Attribute Values :
+	             attributeValuesOne.cmp </a></li>
 	</ul>
 </aura:component>

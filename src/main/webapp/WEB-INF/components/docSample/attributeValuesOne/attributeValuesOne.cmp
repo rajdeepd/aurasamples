@@ -21,5 +21,6 @@ Is Defined? : {!v.isDefined}
 <div>
 <ui:button class="mbutton" aura:id="checkisdefined"
     label="Check Button Label isDefined" press="{!c.setIsDefined }"/>
+
 </div>
 </aura:component>

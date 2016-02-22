@@ -1,0 +1,10 @@
+<aura:component>
+<div>
+<ui:button class="mbutton" aura:id="button1" label="Button 1"/>
+<ui:button class="mbutton" aura:id="button2" label="Button 2"/>
+</div>
+<ui:button class="mbutton" aura:id="button3" label="Add Button 1 to Button 2"
+   press="{!c.addButton2 }" />
+<ui:button class="mbutton" aura:id="button4" label="Remove Button 2 from Button 1"
+   press="{!c.removeButton2 }" />
+</aura:component>

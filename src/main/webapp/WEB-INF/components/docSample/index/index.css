@@ -1,0 +1,22 @@
+.THIS {
+    margin-left:45px;
+    margin-top:45px;
+    width:500px
+}
+.THIS .mbutton {
+	padding: 2px;
+}
+
+.THIS .mlabel {
+	padding: 2px;
+	margin-left: 5px;
+	font-size: 5px;
+}
+
+.THIS menu {
+        padding:5;
+        margin:0;
+}
+.THIS menu li {
+        list-style-type:none;
+}
