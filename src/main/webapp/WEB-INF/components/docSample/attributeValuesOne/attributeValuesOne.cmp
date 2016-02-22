@@ -1,0 +1,25 @@
+<aura:component>
+<aura:attribute name="buttonLabel" type="String"/>
+<aura:attribute name="isDefined" type="String"/>
+<div>
+<ui:button class="mbutton" aura:id="button1" label="Button 1"/>
+</div>
+
+<div class="mlabel">
+Button Label : {!v.buttonLabel}
+</div>
+<div class="mbutton">
+<ui:button label="Get Label" press="{!c.getLabel}"/>
+</div>
+<div class="mlabel">
+<ui:label aura:id="label1" label="Label 1"/>
+</div>
+
+<div class="mlabel">
+Is Defined? : {!v.isDefined}
+</div>
+<div>
+<ui:button class="mbutton" aura:id="checkisdefined"
+    label="Check Button Label isDefined" press="{!c.setIsDefined }"/>
+</div>
+</aura:component>
